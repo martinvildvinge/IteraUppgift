@@ -1,0 +1,215 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "base";
+
+header h1 {
+	margin:0;
+	font-size:55px;
+    color:#e56038;
+}
+header p {
+	font-size:16px;
+	color: #4A463B;
+	margin:0 0 0 112px;
+}
+header#PageHeader {
+	position:relative;
+	width:auto;
+	max-width:93%;
+	margin: 0 auto 25px auto;
+}
+
+/*                     -- [ Classes ] --                     */
+
+.arrow {
+	position:absolute;
+	height:50px;
+	margin:0 auto;
+	left:0;
+	right:0;
+	bottom:0;
+	border:0;
+}
+.arrow img {
+	width:auto !important;
+}
+
+.noBorder {
+	border:0 !important;
+}
+.noBorder a {
+	border:0 !important;
+}
+.endRow_Tablet {
+	height:1%;
+	clear: both;
+}
+
+.containerSection {
+	position:relative;
+	background-size:cover;
+	width:100%;
+	text-align:center;
+}
+.midSectionArticle {
+	clear: both;
+	margin-left: 0;
+	margin-bottom: 84px;
+	width: 100%;	
+}
+.midSectionTitle {
+	font:100% $font-regular;
+	width:50%;
+	font-size:24px;
+	color:#3c3c3c;
+	text-decoration:none;
+	margin:90px auto;
+}
+
+/*                     -- [ Section#TopSection ] --                     */
+section#TopSection {
+	background:#D20A10;
+	opacity:0.9;
+	height:430px;
+}
+section#TopSection h1 {
+	font-size:30px;
+	color:#fff;
+	padding-top:105px;
+	margin:0 auto;
+}
+section#TopSection h2 {
+	font-size:14px;
+	color:#343434;
+	text-decoration:none;
+	color:#fff;
+	margin:0 auto;
+	padding-top:24px;
+	padding-bottom:24px;
+}
+section#TopSection p {
+	font-size:14px;
+}
+section#TopSection p a {
+	color:#fff;
+	text-decoration:none;
+	border-bottom:1px solid #fff;
+	margin:0 auto;
+}
+
+/*                     -- [ Section#MidSection ] --                     */
+
+section#MidSection {
+	max-width:93%;
+	min-height:430px;
+	margin: 0 auto 25px auto;
+}
+section#MidSection article a {
+	color: #000;
+	text-align:left;
+}
+section#MidSection img {
+	width:100%;
+}
+section#MidSection figcaption {
+	color: $iteraRed;
+	padding:15px;
+}
+section#MidSection h1 {
+	font:100% $font-strong;
+	font-size:24px;
+	color:#3c3c3c;
+	text-decoration:none;
+	padding:0 15px;
+}
+section#MidSection p {
+	padding:15px;
+}
+section#MidSection article section {
+	min-height:550px;
+	background-color:#fff;
+}
+section#MidSection article a:hover section {
+	background-color:#e6e7e8;
+	transition: all .55s ease;
+}
+
+/*                     -- [ Section#LowerSection ] --                     */
+
+section#LowerSection {
+	float:left;
+	background:#3C3C3B;
+	width:100%;
+	min-height:522px;
+}
+section#LowerSection section {
+	margin:112px auto;
+	max-width:550px;
+}
+section#LowerSection img {
+	width:95%;
+}
+
+/*                     -- [ Section#SocialSection ] --                     */
+
+section#SocialSection {
+	float:left;
+	background:#fff;
+	width:100%;
+	min-height:522px;
+}
+
+/*                     -- [ Section#BottomSection ] --                     */
+
+section#BottomSection {
+	float:left;
+	background:#fff;
+	width:100%;
+	min-height:522px;
+}
+section#BottomSection #map {
+	margin:100px 0 0 0;
+	padding:0;
+	border-top:2px solid #3c3c3c;
+}
+section#BottomSection article {
+	clear:none;
+	float:left;
+	width:50%;
+	height:210px;
+	border: 1px solid black;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	text-align:left;
+}
+section#BottomSection .active {
+	background:$iteraRed;
+	color:#fff;
+}
+section#BottomSection .active h1 {
+	color:#fff;
+}
+section#BottomSection article h1 {
+	font:100% $font-strong;
+	color:$iteraRed;
+	margin:25px 15px;
+}
+section#BottomSection article p {
+	margin:5px 15px;
+	font-size:.9em;
+}
+section#BottomSection article .txtTel {
+	margin:15px;
+}
+section#BottomSection article .txtMap {
+	margin:15px;
+	text-decoration:underline;
+}
+
+@import "navigation";
+@import "screenVariations";

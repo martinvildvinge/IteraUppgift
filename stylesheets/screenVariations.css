@@ -1,0 +1,93 @@
+/* Scss Document */
+/* Small Mobile */
+/* Large Mobile / Small Tablet Layout */
+@media only screen and (min-width: 481px) {
+  /* line 12, ../sass/screenVariations.scss */
+  #TopSection h1 {
+    font-size: 40px;
+    padding-top: 55px;
+  }
+
+  /* line 16, ../sass/screenVariations.scss */
+  #TopSection h2 {
+    font-size: 18px;
+  }
+
+  /* line 19, ../sass/screenVariations.scss */
+  #TopSection p {
+    font-size: 18px;
+  }
+
+  /* line 22, ../sass/screenVariations.scss */
+  .arrow {
+    padding-top: 25px;
+    border: 0;
+  }
+
+  /* line 26, ../sass/screenVariations.scss */
+  .midSectionArticle {
+    clear: none;
+    float: left;
+    margin-left: 1.6949%;
+    width: 49.1526%;
+    margin-bottom: 84px;
+  }
+
+  /* line 33, ../sass/screenVariations.scss */
+  .zeroMargin_tablet {
+    margin-left: 0;
+  }
+}
+/* Large Tablet Layout */
+@media only screen and (min-width: 769px) {
+  /* line 43, ../sass/screenVariations.scss */
+  #TopSection h1 {
+    font-size: 50px;
+    padding-top: 65px;
+  }
+
+  /* line 47, ../sass/screenVariations.scss */
+  #TopSection h2 {
+    font-size: 22px;
+  }
+
+  /* line 50, ../sass/screenVariations.scss */
+  #TopSection p {
+    font-size: 22px;
+  }
+}
+/* Desktop Layout */
+@media only screen and (min-width: 1025px) {
+  /* line 60, ../sass/screenVariations.scss */
+  #TopSection h1 {
+    font-size: 60px;
+    padding-top: 70px;
+  }
+
+  /* line 64, ../sass/screenVariations.scss */
+  #TopSection h2 {
+    font-size: 24px;
+  }
+
+  /* line 67, ../sass/screenVariations.scss */
+  #TopSection p {
+    font-size: 24px;
+  }
+
+  /* line 70, ../sass/screenVariations.scss */
+  .arrow {
+    padding-top: 30px;
+  }
+}
+/* Large Desktop Layout */
+@media only screen and (min-width: 1333px) {
+  /* line 80, ../sass/screenVariations.scss */
+  #TopSection h1 {
+    padding-top: 105px;
+  }
+
+  /* line 83, ../sass/screenVariations.scss */
+  .arrow {
+    padding-top: 50px;
+  }
+}

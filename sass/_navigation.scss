@@ -1,0 +1,141 @@
+/* Scss Document */
+
+/* Small Mobile (default) */
+
+/* Header Navigation */
+
+header nav #mainNav {
+	margin-top:6px;
+	width:100%;
+}
+header nav li {
+	border-top:solid #9d9c9c 1px;
+}
+header nav #mainNav li a {
+	font-family: "apex_newheavy",Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size:1.05em;
+	text-transform:uppercase;
+	line-height:2.9em;
+	color:#3c3c3c;
+	text-decoration:none;
+}
+header nav #topNav ul li a {
+	font-family: "apex_newbook",Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size:.77em;
+	color:#3c3c3c;
+	line-height:2.4em;
+	text-decoration:none;
+}
+
+/* Mobile Menu (Hidden on larger displays) */
+
+#mobileMenu {
+	position:absolute;
+	right:0;
+	top:106px;
+}
+#mobileMenu ul li {
+	display:block;
+	float:left;
+	border:0;
+}
+#mobileMenu ul li img {
+	height:27px;
+}
+#mobileMenu ul li:first-child {
+	border-right:#3c3c3c 1px solid;
+	width:50px;
+}
+#mobileMenu ul li:first-child img {
+	padding-right:10px;
+}
+#mobileMenu ul li:last-child img {
+	padding-left:14px;
+}
+#mainNavigation {
+	display:none;
+}
+
+/* Large Mobile / Small Tablet Layout */
+
+@media only screen and (min-width: 654px) {
+
+	#mobileMenu {
+		display:none;
+	}
+	#mainNavigation {
+		display:block;
+	}
+	nav {
+		position:absolute;
+		right:0;
+		bottom:-11px;
+	}
+	nav ul li {
+		display:block;
+		float:left;
+	}
+	header nav #topNav {
+		position:absolute;
+		bottom:108px;
+		right:0;
+	}
+	header nav li {
+		border-top:none;
+	}
+	header nav ul#mainNav li img {
+		width:17px;
+		height:15px;
+	}
+	header nav #topNav ul li {
+		border:0;
+		padding:0 7px;
+		top:0;
+		transition: all .45s ease;
+	}
+	header nav #topNav ul li a {
+		font-family: "apex_newbook",Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size:.77em;
+		color:#3c3c3c;
+		text-decoration:none;
+	}
+	header nav ul#mainNav li a {
+		font-family: "apex_newheavy",Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size:.9em;
+		text-transform:uppercase;
+		color:#3c3c3c;
+		border-top:none;
+		border-right:solid #3c3c3c 1px;
+		text-decoration:none;
+		transition: all .45s ease;
+		padding:0 10px;
+	}
+	header nav ul li a:hover {
+		text-decoration: underline;
+	}
+	
+}
+/* Large Tablet Layout */
+
+@media only screen and (min-width: 769px) {
+	
+	header nav #topNav ul li {
+		padding:0 15px;
+	}
+	header nav #topNav ul li a {
+		font-size:.77em;
+	}
+	header nav ul#mainNav li a {
+		font-size:1em;
+		padding:0 15px;
+	}
+	
+}

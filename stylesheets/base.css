@@ -1,0 +1,25 @@
+/* Sass Document */
+@font-face {
+  font-family: 'apex_newheavy';
+  src: url("../fonts/heavy/apexnewheavy-webfont.eot");
+  src: url("../fonts/heavy/apexnewheavy-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/heavy/apexnewheavy-webfont.woff") format("woff"), url("../fonts/heavy/apexnewheavy-webfont.ttf") format("truetype"), url("../fonts/heavy/apexnewheavy-webfont.svg#apex_newheavy") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'apex_newbook';
+  src: url("../fonts/book/apexnewbook-webfont.eot");
+  src: url("../fonts/book/apexnewbook-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/book/apexnewbook-webfont.woff") format("woff"), url("../fonts/book/apexnewbook-webfont.ttf") format("truetype"), url("../fonts/book/apexnewbook-webfont.svg#apex_newbook") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 26, ../sass/base.scss */
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
